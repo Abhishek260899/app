@@ -1,21 +1,40 @@
 {
   "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "For basis modules",
+  "main": "index.js",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "classnames": "^2.2.6",
     "react": "^16.8.6",
+    "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-hammerjs": "^1.0.1",
+    "react-html-parser": "^2.0.2",
+    "react-materialize": "^3.3.1",
+    "react-scripts": "^3.0.1",
+    "react-swipe-card": "^0.1.4",
+    "react-swipeable": "^5.3.0",
+    "react-swipeable-cards": "^1.0.6",
+    "webpack-node-externals": "^1.7.2"
   },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek260899/Basis-learning.git"
   },
+  "author": "Abhishek Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek260899/Basis-learning/issues"
+  },
+  "homepage": "https://github.com/Abhishek260899/Basis-learning#readme",
   "browserslist": {
     "production": [
       ">0.2%",
